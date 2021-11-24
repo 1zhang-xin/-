@@ -1,0 +1,518 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 100%;
+    height: 2891px;
+    background-color: rgb(130,34,16);
+}
+/* 头部导航条 */
+nav{
+    width: 100%;
+    height: 114px;
+  
+    background: url(./1.png) no-repeat 659px -2px;
+    position: relative;
+}
+/* 导航内部图标转圈 */
+.zhuanquan{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+position: absolute;
+left: 682px;
+top: 14px;
+  animation: zhuanquan 5s linear forwards;
+}
+@keyframes zhuanquan{
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+nav>ul{
+    list-style: none;
+}
+nav>ul>li{
+    display: inline-block;
+    color: rgb(255,222,133);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 行书;
+}
+.li1{
+    width: 1px;
+    height: 10px;
+    background-color: rgb(138,138,22);
+   margin: 0px 19px;
+}
+.li2{
+    color: rgb(255,222,133);
+    text-decoration: none;
+}
+
+.ul1{
+    position: relative;
+    left: 228px;
+    top: 56px;
+}
+.ul2{
+    position: relative;
+      left: 938px;
+    top: 35px;
+}
+ .li3:hover{
+    border-bottom:2px solid rgb(255,222,133) ;
+    border-top:2px solid rgb(255,222,133) ;
+    position: relative;
+    top: -5px;
+}
+/* 大图 */
+header{
+    width: 100%;
+    height: 660px;
+    
+}
+header>img{
+    width: 100%;
+    height: 538px;
+}
+/* 主要内容样式 */
+article{
+    width: 100%;
+    height: 500px;
+  
+    border-top: 1px dashed rgb(255,222,133);
+    position: relative;
+}
+.zhongguojie{
+    position:relative;
+    left: 47%;
+    top: -40px;
+}
+.cebianlan1{
+  list-style: none;
+    position: relative;
+    left: 216px;
+    top: 78px;
+}
+.cebianlan1>li{
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.cebianlan1>li:hover{
+    color: rgb(138,138,22);
+}
+time:hover{
+    color: rgb(138,138,22);
+}
+
+.span{
+    margin-left: 216px;
+}
+.gengduo{
+    margin-left: 169px;
+    padding: 1px 34px;
+    box-sizing: border-box;
+    background: url(./5.png) no-repeat 68px -2px;
+    color: rgb(192, 167, 99);
+}
+.padd{
+    padding-left: 15px;
+    box-sizing: border-box;
+    background: url(./8.png) no-repeat 0px 12px;
+    border-bottom: 1px dashed rgb(138,138,22);
+    color:rgb(255,222,133);
+    width: 341px;
+    font-size: 14px;
+}
+.bugong{
+    font-size: 18px;
+    color: rgb(255,222,133);
+    font-weight: 500;
+}
+.biankuang{
+    width: 341px;
+    border-bottom: 2px solid rgb(255,222,133);
+    border-top:  2px solid rgb(255,222,133);
+}
+.span1{
+    margin-left: 5px;
+}
+
+#dierge{
+    position: relative;
+    left: 649px;
+    top: -172px;
+}
+.disan>li{
+    width: 341px;
+    height: 25px;
+   list-style: none;
+   position: relative;
+    right: -1082px;
+    top: -423px;
+    color: rgb(255,222,133);
+    font-size: 14px;
+    padding-top: 10px;
+}
+.one,.two,.four,.five:hover{
+    color: rgb(138,138,22);
+}
+.disan>.three{
+    width: 341px;
+    height: 44px;
+    background-color: rgb(251,199,108);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    line-height: 44px;
+    font-size: 20px;
+  
+  
+}
+.three>img{
+    width: 30px;
+    height: 54px;
+   
+}
+.three>a{
+    text-decoration: none;
+    color: rgb(138,138,22);
+}
+.three:hover{
+    background-color: rgb(255,222,133);
+}
+.hua1{
+    float: left;
+    position: relative;
+    top: -10px;
+}
+.hua2{
+    float: right;
+    position: relative;
+    top: -10px;
+}
+.four{
+    border-bottom: 1px dashed rgb(138,138,22);
+}
+
+.one{
+    border-bottom: 2px solid rgb(255,222,133);
+    border-top: rgb(255,222,133) 2px solid;
+}
+.disan>.five{
+    margin-top: -5px;
+}
+#five1{
+    border-bottom: 1px dashed rgb(138,138,22);
+}
+.two{
+    position: relative;
+}
+.two>div{
+    width: 273px;
+    height: 26px;
+   
+    position: absolute;
+    left: 66px;
+    top: 10px;
+    background: url(./gundong5.png) no-repeat 0px 0px;
+    background-size: 1250px 21px;
+    animation: qizi 20s infinite linear;
+
+}
+/* 滚动条动画 */
+@keyframes qizi{
+           
+    0%{
+       background-position: 0px 0px;
+    }
+    100%{
+        background-position: -1250px 0px;
+}
+}
+/* 黄色主题部分 */
+aside{
+    width: 100%;
+    height: 620px;
+    background: url(./taoxin.png) repeat-x;
+    background-color: rgb(255,222,133);
+    position: relative;
+  
+  
+}
+.donghua1{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+position: relative;
+left: 114px;
+top: 90px;
+opacity: 0;
+animation: donghua 1s linear forwards 2s;
+
+}
+.donghua2{
+    width: 200px;
+    height: 200px;
+position: relative;
+left: 442px;
+top: -115px;
+opacity: 0;
+animation: donghua 1s linear forwards 3s;
+border-radius: 100px;
+}
+.donghua3{
+    width: 200px;
+    height: 200px;
+position: relative;
+left: 804px;
+top: -319px;
+opacity: 0;
+animation: donghua 1s linear forwards 4s;
+border-radius: 100px;
+}
+.donghua4{
+    width: 200px;
+    height: 200px;
+position: relative;
+left: -64px;
+top: -60px;
+opacity: 0;
+animation: donghua 1s linear forwards 6s;
+border-radius: 100px;
+}
+.donghua5{
+    width: 200px;
+    height: 200px;
+position: relative;
+left: 62px;
+top: -59px;
+opacity: 0;
+animation: donghua 1s linear forwards 7s;
+border-radius: 100px;
+}
+.donghua6{
+    width: 200px;
+    height: 200px;
+position: relative;
+left: 188px;
+top: -55px;
+opacity: 0;
+animation: donghua 1s linear forwards 8s;
+border-radius: 100px;
+}
+
+.donghua8{
+    width: 200px;
+    height: 200px;
+position: relative;
+left: 314px;
+top: -59px;
+opacity: 0;
+animation: donghua 1s linear forwards 9s;
+border-radius: 100px;
+}
+.donghua9{
+    width: 200px;
+    height: 200px;
+position: relative;
+left: 110px;
+top: -317px;
+opacity: 0;
+animation: donghua 1s linear forwards 5s;
+border-radius: 100px;
+}
+.lazhu1,.lazhu2,.lazhu3,.lazhu4{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    opacity: 0.3;
+}
+.lazhu1{
+   position: absolute;
+   left: 0px;
+   top: 0px;
+}
+.lazhu2{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.lazhu3{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.lazhu4{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+/* 黄色部分延时动画 */
+@keyframes donghua{
+    0%{
+        opacity: 0.1;
+    }
+    10%{
+        opacity: 0.2;
+    }
+    20%{
+        opacity: 0.3;
+    }
+    30%{
+        opacity: 0.4;
+    }
+    40%{
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 0.6;
+    }
+    60%{
+        opacity: 0.7;
+    }
+    70%{
+        opacity: 0.8;
+    }
+    80%{
+        opacity: 0.9;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+/* 底部样式 */
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: royalblue;
+  background: url(./taoxin2.png) repeat-x 0px 0px;
+  position: relative;
+}
+hr{
+    width: 100%;
+    height: 0px;
+    border: rgb(255,222,133) 1px dashed;
+  
+    position: absolute;
+    top: 124px;
+}
+.dibuzhongguojie{
+    position: relative;
+    left: 704px;
+    top: 83px;
+}
+.yyds{
+    width: 200px;
+    height: 215px;
+  
+    list-style: none;
+    position: relative;
+    left: 536px;
+    top: 184px;
+   
+}
+.yyds>li{
+    padding-top: 24px;
+    box-sizing: border-box;
+  
+    color: rgb(251,199,108);
+}
+.yyds>li:hover{
+    color: rgb(138,138,22);
+}
+.yyds1{
+    border-bottom: 1px solid rgb(251,199,108);
+    border-top: rgb(251,199,108) 1px solid;
+    background: url(./5.png) no-repeat 174px 21px ;
+}
+.yyds3{
+    border-bottom: rgb(251,199,108) 1px solid;
+}
+.yyds4{
+    float: right;
+    position: relative;
+    left: -25px;
+}
+.yyds2,.yyds3{
+    font-size: 13px;
+       text-indent: 2em;
+       background: url(./8.png) no-repeat 0px 25px ;
+   
+}
+.yyds5{
+    font-size: 18px;
+}
+#yyds{
+    position: relative;
+    left: 818px;
+    top: -30px;
+}
+#yyds1{
+    position: relative;
+    left: 243px;
+    top: -245px;
+}
+#yyds1>.yyds2{
+    opacity: 0;
+}
+#yyds2{
+   
+    position: relative;
+    left: 1101px;
+    top: -459px;
+}
+#yyds2>.yyds2{
+    opacity: 0;
+}
+#yyds2>.yyds3{
+    height: 40px;
+}
+.ff{
+    list-style: none;
+    position: relative;
+    left: 381px;
+    top: -279px;
+
+}
+.ff>li{
+    display: inline-block;
+    color: rgb(251,199,108);
+    font-size: 14px;
+  
+}
+.f{
+    width: 1px;
+    height: 10px;
+    background-color: rgb(251,199,108);
+    margin: 0px 13px;
+}
+.ff>li:hover{
+    border-bottom: rgb(251,199,108) dashed 1px;
+    border-top: dashed rgb(251,199,108) 1px;
+    color: rgb(192, 167, 99);
+}
+p{
+    font-size: 14px;
+    color: rgb(251,199,108);
+    position: relative;
+    left: 551px;
+    top: -257px;
+}
+.img5a{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 721px;
+    top: -260px;
+}
+.img6a{
+    position: relative;
+    left: 143px;
+    top: 4px;
+}
